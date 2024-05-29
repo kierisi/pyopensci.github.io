@@ -103,10 +103,13 @@ Our issue template is written using Markdown. Because we ask that you not add an
 
 > New to Markdown? Here's a great [Markdown Guide](https://www.markdownguide.org/basic-syntax/) that covers all of the basic syntax.
 
-## <i class="fa-solid fa-map"></i> Step-by-step guide to completing the spyOpenSci software review issue template
+## <i class="fa-solid fa-map"></i> Step-by-step guide to completing the pyOpenSci software review issue template
+
 Fill out an exemplar issue that someone can follow along with. Use two images side-by-side: blank (before) and filled-in
 (after), going section by section
 > Remember: keep the formatting of the issue template exactly as it is! It's OK to leave sections that apply to you blank, and there's no need to add any additional formatting (bolding, italicizing, etc.).
+
+### Package metadata
 Logistics:
 Submit all at once
 Recommend reading through a few times, but at a high level, in addition to having your package, you’ll want to know:
@@ -120,39 +123,51 @@ Package name: short description
 Header
 You fill out author, maintainers, name, one-liner, repo link, version submitted
 You don’t need to worry about: editor, reviewer 1, reviewer 2, archive, JOSS DOI, version accepted, or date accepted
-Code of Conduct and Commitment to Maintain
+
+### Code of Conduct & Commitment to Maintain Package
 Link to CoC, etc. in tutorial
 Provide highlights
-Description
-Scope
+
+### Description
+
+### Scope
 Is there more information I can provide here about what we do and do not accept?
-Domain specific
-Community Partnerships
+
+### Domain specific
+
+### Community Partnerships
 How to know if your package is associated with an existing community
-Technical checks
+
+### Technical checks
 Links to OSI approved license information
 Explain what each component is and why it's important for submission
+
+### Publication Options
 Submitting to JOSS
 Links from issue in tutorial
+
+### Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly?
 Submitting directly to your repo
 Why we ask this
 Confirmation
 Link to author guide
-Survey
+
+### Please fill out our survey
 How it helps pyOS
 How long it takes to fill out
 Feedback
 Let us know what you like, dislike, and would like to see changed
-Editor and Review templates
+
+### Editor and Review templates
 Not something you need to worry about!
 
-## <i class="fa-solid fa-hourglass"></i> What’s next: the waiting game
+## <i class="fa-solid fa-hourglass"></i> What’s next: what happens after you submit your package for review
 Relax, be ready (to make adjustments)
 Once submit, EIC reviews package for scope and infrastructure
 Takes about two weeks
 May take longer if changes need to be implemented
 Entire process can take approximately 3 months, but can also take considerably longer–entirely package-dependent
-Full timeline
+Full timeline (link to author guide)
 
 # <i class="fa-regular fa-comments"></i> Talk to us!
 If you found this how-to guide useful, or if you have suggestions for how to improve it, we'd love to hear from you! You can always reach out to us on [Fosstodon](https://fosstodon.org/@pyOpenSci), [LinkedIn](https://www.linkedin.com/company/pyopensci), or our [Discourse forum](https://pyopensci.discourse.group/)!
