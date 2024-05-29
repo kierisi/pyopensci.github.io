@@ -54,14 +54,18 @@ You can get more details about each of these criteria in our [Authors Guide](htt
     </figcaption>
 </figure>
 
+## Help request
+If you need some help getting your package ready for review, you can submit a help request here and someone will be assigned to help you out. This is a great way to get guidance on topics like [continuous integration](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration), [testing](https://www.pyopensci.org/python-package-guide/#tests), and [full documentation](https://www.pyopensci.org/python-package-guide/#documentation), all of which are required for a package to be accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). You can also learn more about each of these processes in [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/).
 
-* Screenshot of software-submission page, create a decision tree graphic
-* Help request explanation
-* Pre-submission inquiry explanation
-* A note on data visualization packages—all data viz packages should go through pre-submission inquiry (to evaluate scope?)
-* Submit Software for review explanation
+## Pre-submission inquiry
+If you're not sure if your package falls within the [scope of packages pyOpenSci accepts](https://www.pyopensci.org/software-peer-review/about/package-scope.html), you can submit a pre-submission inquiry. A pre-submission inquiry opens up a dialogue between you and the pyOpenSci editorial team to determine whether or not your package would be a good fit for a full peer review.
 
-# <i class="fa-solid fa-heart"></i> Submit for review: using an issue template
+> A note on data visualization packages: all data visualization packages need to go through the pre-submission inquiry process.
+
+## Submit Software for Review
+When you file an issue using our [Submit Software for Review](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=0%2Fpre-review-checks%2C+New+Submission%21&projects=&template=submit-software-for-review.md&title=) template, you officially kick-off the pyOpenSci open peer review process. Read on for a detailed, step-by-step guide for completing the process!
+
+# <i class="fa-solid fa-heart"></i> Breaking down the pyOpenSci issue template
 We’re going to use Submit Software for review
 Overview of the GitHub UI
 Labels
@@ -73,7 +77,7 @@ Standardizes the submission process
 Etiquette:
 Keep things as they are–don’t delete, rearrange, reformat….
 
-# <i class="fa-solid fa-map"></i> Step-by-step: filling out the submission for review issue template
+## <i class="fa-solid fa-map"></i> Step-by-step guide to completing the spyOpenSci software review issue template
 Fill out an exemplar issue that someone can follow along with. Use two images side-by-side: blank (before) and filled-in (after), going section by section
 Logistics:
 Submit all at once
@@ -114,7 +118,7 @@ Let us know what you like, dislike, and would like to see changed
 Editor and Review templates
 Not something you need to worry about!
 
-# <i class="fa-solid fa-hourglass"></i> What’s next: the waiting game
+## <i class="fa-solid fa-hourglass"></i> What’s next: the waiting game
 Relax, be ready (to make adjustments)
 Once submit, EIC reviews package for scope and infrastructure
 Takes about two weeks
