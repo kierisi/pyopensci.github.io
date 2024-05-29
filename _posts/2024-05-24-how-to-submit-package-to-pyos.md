@@ -15,7 +15,7 @@ toc: true
 comments: true
 ---
 # <i class="fa-solid fa-screwdriver-wrench"></i> Congratulations, you’ve created a package!
-Creating a Python package, whether it's your first or five-hundredth, is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. You can also submit your package to pyOpenSci's open peer review process!
+Creating a Python package, whether it's your first or five-hundredth, is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. You can also submit your package to pyOpenSci's open peer review process.
 
 > Looking for help creating a Python package? Check out [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/), which will walk you through the process, start to finish.
 
@@ -42,9 +42,19 @@ When submitting to pyOpenSci, there are several criteria we use to evaluate if t
 - **Version** (JOSS only, may be post-review): Does the release version given match the GitHub release (v1.0.0)?
 - **Survey:** the initial onboarding survey was filled out.
 
-You can read about each of these criteria in-depth in our [Authors Guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html).
+You can get more details about each of these criteria in our [Authors Guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html).
 
 # <i class="fa-brands fa-github-alt"></i> Choosing the correct issue for submission via GitHub
+<figure>
+    <a href="/images/blog/2024/may/issue-selection-screen.png">
+    <img src="/images/blog/2024/may/issue-selection-screen.png" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
+    </a>
+    <figcaption>
+      There are three options when you reach the pyOpenSci issue selection screen.
+    </figcaption>
+</figure>
+
+
 * Screenshot of software-submission page, create a decision tree graphic
 * Help request explanation
 * Pre-submission inquiry explanation
