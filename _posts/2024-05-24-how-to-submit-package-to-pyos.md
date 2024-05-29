@@ -14,15 +14,37 @@ classes: wide
 toc: true
 comments: true
 ---
-# Congratulations, you’ve created a package!
-Celebrate hard work
+# <i class="fa-solid fa-screwdriver-wrench"></i> Congratulations, you’ve created a package!
+Creating a Python package, whether it's your first or five-hundredth, is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. You can also submit your package to pyOpenSci's open peer review process!
 
-> Call-out: link to pyOS packaging guide for those looking to get started//get help building a package
+> Looking for help creating a Python package? Check out [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/), which will walk you through the process, start to finish.
 
-# What pyOS looks for in a package (checklist style? Pull from author guide)
-## Technical
-## “Human” (maintain for 2 years, answer questions, etc.)
-# Choosing your issue
+# <i class="fa-solid fa-circle-chevron-down"></i> Why you should submit to pyOpenSci's open peer review process
+pyOpenSci's peer review process is run by a team of dedicated volunteers, and provides the opportunity for package maintainers to have their code, documentation, and infrastructure vetted by both domain experts as well as Python experts. Because pyOpenSci invests in recruiting a diverse team of editors and reviewers, our review process provides and enhanced feedback experience.
+
+In addition, pyOpenSci's partnership with the [Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) means that if your package is accepted by pyOpenSci and in scope for JOSS, it will be fast-tracked through JOSS’ review process.
+
+Read more about the benefits of utilizing pyOpenSci's open peer review process in our [Peer Review Guide](https://www.pyopensci.org/software-peer-review/about/benefits.html).
+
+# <i class="fa-solid fa-magnifying-glass"></i> What pyOS looks for in a package
+When submitting to pyOpenSci, there are several criteria we use to evaluate if the package is in-scope for our review process:
+1. Package maintenance: we understand that life happens, but we ask that you commit to maintaining your package for at least 1-2 years after the pyOpenSci review process is complete.
+2. Your package should meet all of the initial Editor checks, which include:
+- **Installation:** the package can be installed from a community repository such as PyPI (preferred), and/or a community channel on conda (e.g. conda-forge, bioconda).
+- **Fit:** the package meets criteria for [fit](https://www.pyopensci.org/software-peer-review/about/package-scope.html#what-types-of-packages-does-pyopensci-review) and [overlap](https://www.pyopensci.org/software-peer-review/about/package-scope.html#package-overlap).
+- **Documentation:** the package has sufficient online documentation to allow us to evaluate package function and scope *without installing the package*.
+- **GitHub:** core GitHub repository files are present.
+- **Issue submission documentation:** all of the information is filled out in the `YAML` header of the issue (located at the top of the issue template).
+- **Automated tests:** the package has a testing suite and is tested via a Continuous Integration service.
+- **Repository:** the repository link resolves correctly.
+- **Package overlap:** The package doesn't entirely overlap with the functionality of other packages that have already been submitted to pyOpenSci.
+- **Archive** (JOSS only, may be post-review): The repository DOI resolves correctly.
+- **Version** (JOSS only, may be post-review): Does the release version given match the GitHub release (v1.0.0)?
+- **Survey:** the initial onboarding survey was filled out.
+
+You can read about each of these criteria in-depth in our [Authors Guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html).
+
+# <i class="fa-brands fa-github-alt"></i> Choosing the correct issue for submission via GitHub
 * Screenshot of software-submission page, create a decision tree graphic
 * Help request explanation
 * Pre-submission inquiry explanation
@@ -40,9 +62,8 @@ What is an issue template?
 Standardizes the submission process
 Etiquette:
 Keep things as they are–don’t delete, rearrange, reformat….
-Anything else?
 
-# Step-by-step: filling out the submission for review issue template
+# <i class="fa-solid fa-map"></i> Step-by-step: filling out the submission for review issue template
 Fill out an exemplar issue that someone can follow along with. Use two images side-by-side: blank (before) and filled-in (after), going section by section
 Logistics:
 Submit all at once
