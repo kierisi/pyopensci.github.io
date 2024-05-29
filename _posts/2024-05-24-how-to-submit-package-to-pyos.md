@@ -65,20 +65,36 @@ If you're not sure if your package falls within the [scope of packages pyOpenSci
 ## Submit Software for Review
 When you file an issue using our [Submit Software for Review](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=0%2Fpre-review-checks%2C+New+Submission%21&projects=&template=submit-software-for-review.md&title=) template, you officially kick-off the pyOpenSci open peer review process. Read on for a detailed, step-by-step guide for completing the process!
 
-# <i class="fa-solid fa-heart"></i> Breaking down the pyOpenSci issue template
-We’re going to use Submit Software for review
-Overview of the GitHub UI
-Labels
-Write//preview
-Markdown basics
-Call-out: link to Markdown 101 resource (could make a nice quick blog post, too)
-What is an issue template?
-Standardizes the submission process
-Etiquette:
-Keep things as they are–don’t delete, rearrange, reformat….
+# <i class="fa-solid fa-heart"></i> Breaking down the pyOpenSci Submit Software for review issue template
+<figure>
+    <a href="/images/blog/2024/may/submit-software-ui.png">
+    <img src="/images/blog/2024/may/submit-software-ui.png" style="max-width:100%" alt="Screenshot of the pyOpenSci Submit Software for Review issue on GitHub.">
+    </a>
+</figure>
+
+## Overview of the GitHub issue UI
+GitHub issue templates are an efficient way to standardize a recurring process, and makes it easier for our editorial board to both evaluate a package as well as identify areas where they need more information. When using an issue template, it's important to keep the formatting the way that it's presented. This means:
+* Don't delete sections, even if they don't apply to your package.
+* Don't add additional formatting to your submission (bolding, italicizing, etc.).
+* Don't rearrange sections
+
+We use a script to scrape and parse issues, which allows us to work more quickly and efficiently. When extra formatting is added and/or section are removed it adds time to the review process, as we have to go in and adjust things manually.
+
+We also ask that you only submit your issue once it's complete, rather than continuously editing an issue. This guide will go through all of the information you'll need to submit your package for review, and it can be helpful to set aside enough time to complete the issue in its entirety when you go to submit.
+
+### Labels
+Labels are used to categorize issues on GitHub, and when you open a [Submit Software for Review issue](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=0%2Fpre-review-checks%2C+New+Submission%21&projects=&template=submit-software-for-review.md&title=), the appropriate labels are already applied for you! We currently use `0/pre-review-checks` and `New Submission!` to categorize software submissions.
+
+### Write and preview
+When completing the issue template, you can add your text in the
+
+### Markdown basics
+> New to Markdown? Here's a great [Markdown Guide](https://www.markdownguide.org/basic-syntax/) that covers all of the basic syntax.
 
 ## <i class="fa-solid fa-map"></i> Step-by-step guide to completing the spyOpenSci software review issue template
-Fill out an exemplar issue that someone can follow along with. Use two images side-by-side: blank (before) and filled-in (after), going section by section
+Fill out an exemplar issue that someone can follow along with. Use two images side-by-side: blank (before) and filled-in
+(after), going section by section
+> Remember: keep the formatting of the issue template exactly as it is! It's OK to leave sections that apply to you blank, and there's no need to add any additional formatting (bolding, italicizing, etc.).
 Logistics:
 Submit all at once
 Recommend reading through a few times, but at a high level, in addition to having your package, you’ll want to know:
