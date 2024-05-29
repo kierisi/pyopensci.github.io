@@ -85,10 +85,22 @@ We also ask that you only submit your issue once it's complete, rather than cont
 ### Labels
 Labels are used to categorize issues on GitHub, and when you open a [Submit Software for Review issue](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=0%2Fpre-review-checks%2C+New+Submission%21&projects=&template=submit-software-for-review.md&title=), the appropriate labels are already applied for you! We currently use `0/pre-review-checks` and `New Submission!` to categorize software submissions.
 
-### Write and preview
-When completing the issue template, you can add your text in the
+### Write and Preview
+When completing the issue template, you can add your text in the `Write` tab, and then click on the `Preview` tab to see how your issue is rendered. It can be helpful to read through the issue template in `Preview` mode, as it automatically formats and organizes the information.
+
+One of the quirky things about the pyOpenSci submission template is that the check boxes have two different methods for completion:
+* You can manually add an "X" in the box to mark it as checked,
+* or you can check it off after you submit the issue by clicking on the corresponding boxes.
 
 ### Markdown basics
+Our issue template is written using Markdown. Because we ask that you not add any additional formatting to the issue template, you don't actually need to know how to use Markdown to complete the issue template! However, knowing the basics of Markdown can be helpful in understanding how the information in the issue template is organized. At a very high level, the Markdown used in the pyOpenSci issue template includes:
+
+* Headers, indicated by `#`. `#` corresponds to an `H1` header, `##` and `H2` header, and so on.
+* Bullet-points, which can be created using `*` or `-`.
+* Checkboxes, which appear as `[ ]`. You can mark a checkbox as completed by adding an "X", like this: `[X]`. The "X" can be uppercase or lowercase.
+* Bolding text, using two asterisks on each side of the text to be bolded, like this: **this text is bold**.
+* Italicizing text, using a single asterisk on each side of the text to be italicized: *this text is italicized*.
+
 > New to Markdown? Here's a great [Markdown Guide](https://www.markdownguide.org/basic-syntax/) that covers all of the basic syntax.
 
 ## <i class="fa-solid fa-map"></i> Step-by-step guide to completing the spyOpenSci software review issue template
