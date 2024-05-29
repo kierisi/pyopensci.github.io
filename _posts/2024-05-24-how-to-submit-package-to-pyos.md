@@ -51,7 +51,7 @@ You can read about each of these criteria in-depth in our [Authors Guide](https:
 * A note on data visualization packages—all data viz packages should go through pre-submission inquiry (to evaluate scope?)
 * Submit Software for review explanation
 
-# Submit for review: using an issue template
+# <i class="fa-solid fa-heart"></i> Submit for review: using an issue template
 We’re going to use Submit Software for review
 Overview of the GitHub UI
 Labels
@@ -104,10 +104,13 @@ Let us know what you like, dislike, and would like to see changed
 Editor and Review templates
 Not something you need to worry about!
 
-# What’s next: the waiting game
+# <i class="fa-solid fa-hourglass"></i> What’s next: the waiting game
 Relax, be ready (to make adjustments)
 Once submit, EIC reviews package for scope and infrastructure
 Takes about two weeks
 May take longer if changes need to be implemented
 Entire process can take approximately 3 months, but can also take considerably longer–entirely package-dependent
 Full timeline
+
+# <i class="fa-regular fa-comments"></i> Talk to us!
+If you found this how-to guide useful, or if you have suggestions for how to improve it, we'd love to hear from you! You can always reach out to us on [Fosstodon](https://fosstodon.org/@pyOpenSci), [LinkedIn](https://www.linkedin.com/company/pyopensci), or our [Discourse forum](https://pyopensci.discourse.group/)!
