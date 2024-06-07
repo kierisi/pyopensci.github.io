@@ -15,6 +15,9 @@ main:
       - title: "Peer review guide"
         url: "https://www.pyopensci.org/software-peer-review/"
         icon: "fas fa-external-link-alt"
+      - title: "How to submit a package"
+        url: "package-submission-how-to.html"
+        icon: ""
   - title: "Python Packaging"
     icon: "fas fa-fw fa-envelope-square"
     url:

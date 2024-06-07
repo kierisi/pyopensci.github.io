@@ -1,18 +1,13 @@
 ---
-layout: single
-title: "How to: submitting a package to pyOpenSci"
-excerpt: "This step-by-step guide will walk you through submitting a package to pyOpenSci's open peer review process."
-author: "Jesse Mostipak"
-permalink: /blog/how-to-submit-a-package-to-pyopensci.html
+layout: splash
+title: "How to submit a package to pyOpenSci"
+author_profile: false
+published: true
+site-map: true
+permalink: /package-submission-how-to.html
 header:
-  overlay_image: images/blog/2024/may/submitting-a-package.png
   overlay_filter: 0.6
-categories:
-  - blog-post
-  - community
-classes: wide
-toc: true
-comments: true
+_data/navigation.yml
 ---
 # <i class="fa-solid fa-screwdriver-wrench"></i> Congratulations, you’ve created a package!
 Creating a Python package, whether it's your first or five-hundredth, is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. You can also submit your package to pyOpenSci's open peer review process.
